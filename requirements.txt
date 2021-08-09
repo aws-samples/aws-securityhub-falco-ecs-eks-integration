@@ -1,0 +1,4 @@
+-e .
+
+aws-cdk.aws-lambda
+aws_cdk.aws_iam

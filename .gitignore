@@ -1,0 +1,43 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.env
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+
+# PyCharm files
+.idea/
+
+# pyenv
+.python-version
+
+# macOS files
+.DS_Store
+
+# Environment
+.venv/
+node_modules/
+
+# AWS Chalice files
+chalice.out/
+api/runtime/.chalice/deployed/
+api/runtime/.chalice/deployments/
+
+# AWS CDK files
+cdk.out/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Coverage.py
+.coverage
+coverage.xml
+htmlcov/
